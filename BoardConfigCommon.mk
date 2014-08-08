@@ -44,3 +44,6 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+
+# We need this for a successful build
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
