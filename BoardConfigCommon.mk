@@ -43,7 +43,7 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
-TARGET_RECOVERY_DEVICE_DIR := device/samsung/qcom-common/recovery
+TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # We need this for a successful build
