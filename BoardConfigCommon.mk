@@ -42,6 +42,7 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_HAS_DOWNLOAD_MODE := true
+COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
 # We need this for a successful build
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
